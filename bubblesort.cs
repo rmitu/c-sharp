@@ -42,7 +42,7 @@ namespace bobbleSort
             {
                 for (int j = 0; j < length - 1 - i;  j++)
                 {
-                    if( unsortedArray[j] > unsortedArray[ j + 1] )
+                    if( unsortedArray[j] > unsortedArray[ j + ] )
                     {
                         int num = unsortedArray[j];
                         unsortedArray[j] = unsortedArray[ j + 1 ];
